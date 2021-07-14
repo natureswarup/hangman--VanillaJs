@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.inputFieldContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputFieldContainer #guess {
+    margin: 0 10px;
+}
+
+.game {
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
