@@ -29,7 +29,7 @@ function GuessLetter() {
     textBox.focus();
     return;
   }
-  // store the previous attempts
+  // see if user guessed same letter
   if (previousGuesses.includes(guess)) {
     error.innerHTML = `You have already guessed "${guess}." Try again!`;
     textBox.value = "";
